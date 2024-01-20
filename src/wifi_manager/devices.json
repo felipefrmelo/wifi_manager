@@ -1,0 +1,84 @@
+[
+  {
+    "id": 0,
+    "active": true,
+    "name": "Mac_filter_0",
+    "macAddress": "66:86:19:B2:9A:46",
+    "deviceId": 0
+  },
+  {
+    "id": 1,
+    "active": true,
+    "name": "Mac_filter_1",
+    "macAddress": "D4:63:C6:1E:8A:6B",
+    "deviceId": 1
+  },
+  {
+    "id": 2,
+    "active": true,
+    "name": "Mac_filter_2",
+    "macAddress": "4C:63:71:52:92:9F",
+    "deviceId": 2
+  },
+  {
+    "id": 3,
+    "active": true,
+    "name": "Mac_filter_3",
+    "macAddress": "32:23:D0:8A:68:03",
+    "deviceId": 3
+  },
+  {
+    "id": 4,
+    "active": true,
+    "name": "Mac_filter_4",
+    "macAddress": "C2:46:2F:B9:97:16",
+    "deviceId": 4
+  },
+  {
+    "id": 5,
+    "active": true,
+    "name": "Mac_filter_5",
+    "macAddress": "E2:9C:0C:DC:51:D8",
+    "deviceId": 5
+  },
+  {
+    "id": 6,
+    "active": true,
+    "name": "Mac_filter_6",
+    "macAddress": "2A:AA:F3:08:34:DF",
+    "deviceId": 6
+  },
+  {
+    "id": 8,
+    "active": true,
+    "name": "Mac_filter_8",
+    "macAddress": "7C:8B:B5:0F:36:9F",
+    "deviceId": 8
+  },
+  {
+    "id": 9,
+    "active": true,
+    "name": "Mac_filter_9",
+    "macAddress": "DA:31:D7:9F:71:68",
+    "deviceId": 9
+  },
+  {
+    "id": 10,
+    "active": true,
+    "name": "Mac_filter_10",
+    "macAddress": "7E:4A:5D:2E:35:66",
+    "deviceId": 10
+  },
+  {
+    "id": 11,
+    "active": true,
+    "name": "Mac_filter_10",
+    "macAddress": "a8:16:d0:6c:1d:fb",
+    "deviceId": 10
+  },
+  {
+    "macAddress": "1e:a5:59:96:74:07",
+    "name": "Mac_filter_10",
+    "deviceId": 10
+  }
+]

@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "wifi-manager"
+version = "0.1.0"
+description = ""
+authors = ["Felipe <felipe.melo@luizalabs.com>"]
+readme = "README.md"
+packages = [{include = "wifi_manager", from = "src"}]
+
+[tool.poetry.scripts]
+wifi = "wifi_manager.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+cryptography = "^41.0.7"
+django = "^5.0.1"
+django-compressor = "^4.4"
+django-tailwind = "^3.8.0"
+gunicorn = "^21.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+rope = "^1.11.0"
+autopep8 = "^2.0.4"
+faker = "^22.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
