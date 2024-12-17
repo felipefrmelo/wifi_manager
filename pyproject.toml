@@ -17,6 +17,7 @@ django = "^5.0.1"
 django-compressor = "^4.4"
 django-tailwind = "^3.8.0"
 gunicorn = "^21.2.0"
+python-dotenv = "^1.0.1"
 
 
 [tool.poetry.group.dev.dependencies]

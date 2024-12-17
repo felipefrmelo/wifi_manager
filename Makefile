@@ -5,7 +5,7 @@ build:
 	poetry run python src/web/manage.py migrate
 
 run:
-	poetry run python src/web/manage.py runserver
+	poetry run python src/web/manage.py runserver 0.0.0.0:8000
 
 
 create-superuser:

@@ -7,8 +7,8 @@ from wifi_manager.models import Device
 
 
 class DeviceDjango(models.Model):
-    ip_address = models.CharField(max_length=20, unique=True, primary_key=True)
-    mac_address = models.CharField(max_length=20, unique=True)
+    ip_address = models.CharField(max_length=20, unique=False)
+    mac_address = models.CharField(max_length=20, unique=True, primary_key=True)
     owner = models.CharField(max_length=100, default='unknown')
     blocked = models.BooleanField(default=False)  # type: ignore
     name = models.CharField(max_length=100, null=True, blank=True)

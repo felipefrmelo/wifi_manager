@@ -3,7 +3,9 @@ from wifi_manager.auth import get_access_token
 from wifi_manager.client import Client
 from wifi_manager.models import Device
 import os
+from dotenv import load_dotenv
 
+load_dotenv()
 password = os.environ['ROUTER_PASSWORD']
 login = os.environ['ROUTER_LOGIN']
 
