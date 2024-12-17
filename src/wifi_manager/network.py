@@ -9,7 +9,7 @@ def get_devices_connect_on_wifi() -> list[Device]:
     path = os.path.join(os.path.dirname(
         os.path.abspath(__file__)), 'network_scan.sh')
 
-    arp_command = ['sudo', path]
+    arp_command = [path]
     output = subprocess.check_output(arp_command).decode()
 
     devices = [device.split('\t') for device in output.split('\n')[2:-4]]
